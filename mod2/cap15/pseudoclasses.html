@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style> 
+        div{
+            display: inline-block;
+            height: 150px;
+            width: 190px;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        div:hover{
+            background-color: aquamarine;
+        }
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        } 
+
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            color: rgb(0, 255, 21);
+        }
+        a:hover{
+            color: rgb(255, 0, 0);
+        }
+
+
+        /* aqui um pseudo elemento :: */
+        a::after{
+            content: "[link]";
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Pseudo classes estao relacionadas a estados dos elementos</h1>
+
+    <div>
+        1
+        <p>Texto Escondido</p>
+    </div>
+
+    <div>
+        2
+        <p>Texto Escondido</p>
+    </div>
+
+    <div>
+        3
+        <p>Texto Escondido</p>
+    </div>
+
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+    </ul>
+
+</body>
+</html>
