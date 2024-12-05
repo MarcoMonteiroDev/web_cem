@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="get">
+
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel" pattern="^[0-9]{4}-[0-9]{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+        <!-- estudar sobre RegEx(expressoes regulares) elas sao usados em patterns -->
+
+    </form>
+
+</body>
+
+</html>

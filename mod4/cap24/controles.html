@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="inome">nome: </label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="15" placeholder="digite seu nome" autocomplete="username">
+        </p>
+        <p>
+            <label for="isobrenome">sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome" autocomplete="family-name">
+        </p>
+        <p>
+            <label for="isenha">senha: </label>
+            <input type="password" name="senha" id="isenha" required autocomplete="current-password"> 
+        </p>
+
+        <p>
+            <input type="submit" value="enviar"><input type="reset" value="Limpar">
+        </p>
+
+
+
+
+    </form>
+
+</body>
+
+</html>

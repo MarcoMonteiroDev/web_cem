@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.5" value="5">
+        </p>
+
+        <p>
+            <label for="iperiodo">Periodo Letivo</label>
+            <input type="month" name="periodo" id="iperiodo" value="2024-12">
+        </p>
+
+        <p>
+            <label for="iprova">Dia Da Prova</label>
+            <input type="date" name="Prova" id="iprova">
+        </p>
+
+        <p>
+            <label for="ihora">Hora Da Prova</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+    </form>
+
+</body>
+
+</html>

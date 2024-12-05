@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="post">    
+
+        <select name="estado" id="iest">
+
+            <optgroup label="Regiao Sudeste">
+                <option value="MG">Minas</option>
+                <option value="RJ">Rio De Janeiro</option>
+                <option value="SP" selected>São Paulo</option>
+            </optgroup>
+
+            <optgroup label="Regiao Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernabuco</option>
+                <option value="RN">Rio Grande Do Norte</option>
+            </optgroup>
+
+        </select>
+
+        <p>
+            <label for="">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Adiministrador</option>
+                <option>contador</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <textarea name="" id="" cols="30" rows="20" placeholder="digite seu texto aqui"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>

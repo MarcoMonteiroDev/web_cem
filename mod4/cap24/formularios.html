@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- desligando o autocomplemento -->    <!-- metodos get(para dados nao sensiveis e aproximadamente 3000 bytes) e post(dados sensiveis mais de 3000 bytes o envios de arquivos) -->
+    <form autocomplete="off" action="cadastro.php" method="get">
+
+        <p>
+            <label for="inome">nome: </label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+
+        <p><input type="submit" value="enviar"></p>
+
+    </form>
+
+</body>
+</html>
