@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            div.container{
+                background-color: aqua;
+                display: flex;
+                align-items: start;
+                flex-flow: row nowrap;
+            }
+
+            div.item{
+                background-color: aquamarine;
+                text-align: center;
+                border: 1px solid black;
+                padding: 10px;
+                
+            }
+            
+            div#i1{
+                flex-basis: 130px;
+                flex-grow: 2;
+                flex-shrink: 1;
+            }
+            
+            div#i2{
+                flex-basis: 130px;
+                flex-grow: 1;
+                flex-shrink: 2;
+            }
+            
+            div#i3{
+                flex-basis: 130px;
+                flex-grow: 0;
+                flex-shrink: 0;
+            }
+
+        </style>
+        <!-- flex-shrink: 1(padrao pode encolher),0(não pode encolher),2(diminui 2x1),3(diminui 3x1)obs sempre proporcional-->
+        <!-- flex-grow: 0(padrão não pode crescer),1(pode crescer),2(cresce 2x1),3(cresce 3x1)obs:sempre proporcional-->
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+    </div>
