@@ -17,7 +17,7 @@ main{
     padding:10px;
     box-shadow: 5px 5px 5px #F2D6BD;
     border-radius: 14px;
-    /* aqui no box shadow 1 a sombra da esquerda 2 sombra pra baixo 3 o desfoque e por ultimo a cor*/
+    /* aqui no box shadow 1 a sombra da direita 2 sombra pra baixo 3 o desfoque e por ultimo a cor*/
 }
 
 h1{
