@@ -45,6 +45,7 @@ header > nav > a {
     text-decoration: none;
     text-align: center;
 }
+
 header > nav > a:hover {
     background-color: white;
     color: black;
